@@ -1,0 +1,14 @@
+# Reading inputs
+patient_name = input()
+patient_id = input()
+age = int(input())
+temperature = float(input())
+admitted_status = input()  # Reads as a string ("true" or "false")
+
+# Displaying output
+print("PATIENT RECORD")
+print(f"Patient Name: {patient_name}")
+print(f"Patient ID: {patient_id}")
+print(f"Age: {age}")
+print(f"Temperature: {temperature}")
+print(f"Admitted: {admitted_status}")

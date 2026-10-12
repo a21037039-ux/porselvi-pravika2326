@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int age = sc.nextInt();
+        String city = sc.next();
+
+        System.out.println("Age: " + age);
+        System.out.println("City: " + city);
+    }
+}

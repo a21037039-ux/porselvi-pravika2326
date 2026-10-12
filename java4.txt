@@ -1,0 +1,12 @@
+# Reading inputs
+customer_name = input()
+movie_name = input()
+ticket_count = int(input())
+ticket_price = float(input())
+
+# Displaying output
+print("BOOKING SUMMARY")
+print(f"Customer: {customer_name}")
+print(f"Movie: {movie_name}")
+print(f"Tickets: {ticket_count}")
+print(f"Ticket Price: {ticket_price}")

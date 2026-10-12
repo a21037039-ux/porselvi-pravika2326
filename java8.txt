@@ -1,0 +1,14 @@
+class Main {
+    public static void main(String[] args) {
+        String name = "Laptop";
+        int id = 101;
+        double price = 49999.99;
+        boolean available = true;
+
+        System.out.println("PRODUCT INFORMATION");
+        System.out.println("Name: " + name);
+        System.out.println("ID: " + id);
+        System.out.println("Price: " + price);
+        System.out.println("Available: " + available);
+    }
+}

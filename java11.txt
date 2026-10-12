@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        String customer = sc.nextLine();
+        String movie = sc.nextLine();
+        int tickets = Integer.parseInt(sc.nextLine());
+        double price = Double.parseDouble(sc.nextLine());
+
+        System.out.println("BOOKING SUMMARY");
+        System.out.println("Customer: " + customer);
+        System.out.println("Movie: " + movie);
+        System.out.println("Tickets: " + tickets);
+        System.out.println("Ticket Price: " + price);
+    }
+}
